@@ -1,0 +1,115 @@
+/*ESCOPO*/
+
+body {
+    background-color: #EAFFF6;
+    margin: 0;
+}
+
+/*Logo parte superior*/
+.divImg {
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 1%;
+    border-radius: 0.5%;
+    margin-bottom: 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.unicuritibaLogo {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+}
+
+.logoText {
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-size: 3vw;
+    color: #06083D;
+}
+
+/*FORMULARIO*/
+.divForms {
+    width: 90%;
+    max-width: 300px;
+    background-color: rgba(0, 52, 92, 0.8);
+    text-align: center;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 0 0 1vw rgba(0, 0, 0,0.5);
+    margin-bottom: 5%;
+    margin-top: 15%;
+}
+h2 {
+    font-size: 4vw;
+    color: #ffffff;
+    margin: 1% 0;
+    margin-bottom: 5%;
+    padding: 0;
+}
+.linkText {
+    margin-top: 1%;
+    font-size: 1.4vw;
+    color: #77cebf;
+}
+
+.linkText a {
+    color: #deffed;
+    text-decoration: none;
+}
+
+.linkText a:hover {
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.2%;
+    text-align: left;
+    color: #d0f0f5;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 3.0%;
+    margin-bottom: 0%;
+    border: 1px solid #5f5f5f;
+    border-radius: 5.0%;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0.5vw rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"] {
+    font-size: 2vw;
+    width: 75%;
+    padding: 3%;
+    background-color: #94c8ca;
+    color: black;
+    border: 0;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #4EB7B0;
+    transform: scale(1.05);
+}
+
+
+/*----Responsividade--*/
+
+@media (max-width: 600px) {
+    .divForms {
+        width: 90%;
+    }
+    .unicuritibaLogo {
+        width: 80%;
+    }
+}
